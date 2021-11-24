@@ -2,38 +2,39 @@
         background-color: hsl(217, 54%, 11%);
         font-family: 'Outfit', sans-serif;
     }
+    /* Main Card  */
     
     .card_bg {
-        border-radius: 3%;
+        border-radius: 15px;
         background-color: hsl(216, 50%, 16%);
         width: 300px;
         margin: 5%;
-        /* padding: 20px; */
     }
+    /* Main Image  */
     
     .eq_img {
         padding: 20px;
         border-radius: 10%;
+        width: 100%;
+        height: auto;
     }
+    /* Svg Icons */
     
     .eth-img,
     .clock-img {
         margin: 5px;
         display: inline;
     }
+    /* Horizontal Rule */
     
     .h-rule {
         color: #fff;
     }
+    /* Equilibrium #heading and body part */
     
     .eq_head {
         font-weight: 600;
         color: #fff
-    }
-    
-    .name {
-        color: #fff;
-        display: inline;
     }
     
     .time {
@@ -60,8 +61,8 @@
     .creation {
         color: hsl(215, 51%, 70%);
         display: inline;
-        /* margin-left: 1px; */
     }
+    /* Author Details  */
     
     .creator-img {
         width: 2em;
@@ -70,15 +71,57 @@
         outline: 1px solid white;
     }
     
+    .name {
+        color: #fff;
+        display: inline;
+    }
+    /* Attribution */
+    
     .attribution {
         color: blueviolet;
     }
+    /* Hover On Image Active  */
     
-    .eq_img:hover {
-        opacity: 0.5 hsl(178, 100%, 50%);
+    .cont {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
     }
+    
+    .overlay {
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        border-radius: 10px;
+        right: 20px;
+        width: 260px;
+        opacity: 0;
+        transition: .3s ease;
+        background-color: hsl(178, 100%, 50%);
+    }
+    
+    .cont:hover .overlay {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    
+    .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .icon :hover {
+        color: #fff;
+        opacity: 1;
+    }
+    /* Hover on ActiveLink  */
     
     .name:hover,
     .eq_head:hover {
         color: hsl(178, 100%, 50%);
+        cursor: pointer;
     }
