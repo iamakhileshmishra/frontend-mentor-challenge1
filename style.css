@@ -1,0 +1,84 @@
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .card_bg {
+        border-radius: 3%;
+        background-color: hsl(216, 50%, 16%);
+        width: 300px;
+        margin: 5%;
+        /* padding: 20px; */
+    }
+    
+    .eq_img {
+        padding: 20px;
+        border-radius: 10%;
+    }
+    
+    .eth-img,
+    .clock-img {
+        margin: 5px;
+        display: inline;
+    }
+    
+    .h-rule {
+        color: #fff;
+    }
+    
+    .eq_head {
+        font-weight: 600;
+        color: #fff
+    }
+    
+    .name {
+        color: #fff;
+        display: inline;
+    }
+    
+    .time {
+        margin-left: 60px;
+        color: hsl(215, 51%, 70%);
+        display: inline;
+    }
+    
+    .eth-value {
+        display: inline;
+        color: hsl(178, 100%, 50%);
+    }
+    
+    .body_text {
+        color: hsl(215, 51%, 70%);
+        size: 18px;
+        padding: 4% 0% 4%;
+    }
+    
+    .value {
+        color: hsl(178, 100%, 50%);
+    }
+    
+    .creation {
+        color: hsl(215, 51%, 70%);
+        display: inline;
+        /* margin-left: 1px; */
+    }
+    
+    .creator-img {
+        width: 2em;
+        display: inline-block;
+        border-radius: 200px;
+        outline: 1px solid white;
+    }
+    
+    .attribution {
+        color: blueviolet;
+    }
+    
+    .eq_img:hover {
+        opacity: 0.5 hsl(178, 100%, 50%);
+    }
+    
+    .name:hover,
+    .eq_head:hover {
+        color: hsl(178, 100%, 50%);
+    }
