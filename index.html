@@ -21,12 +21,12 @@
 </head>
 
 <body>
-    <div class="card mx-auto card_bg">
+    <div class="card mx-auto card_bg" role="main-div">
         <div class="cont">
             <img src="images/image-equilibrium.jpg " class="card-img-top eq_img " alt="Equilibrium Image">
             <div class="overlay">
-                <a href="#" class="icon">
-                    <img src="./images/icon-view.svg" />
+                <a href="#" class="icon" aria-label="To enlarge Image">
+                    <img src="./images/icon-view.svg" alt="eye-icon" />
                 </a>
             </div>
         </div>
@@ -34,19 +34,21 @@
 
         <div class="card-body ">
             <div class="card-text ">
-                <div class="eq_head ">Equilibrium #3429</div>
+                <div class="eq_head ">
+                    <h1>Equilibrium #3429</h1>
+                </div>
                 <div class="body_text ">Our Equilibrium collection promotes balance and calm.</div>
 
                 <div class="eth-value ">
-                    <div class="eth-img "> <img src="./images/icon-ethereum.svg "> </div>0.041 ETH
+                    <div class="eth-img "> <img src="./images/icon-ethereum.svg " alt="eth-icon"> </div>0.041 ETH
                 </div>
                 <div class=" time ">
-                    <div class="clock-img"> <img src=" ./images/icon-clock.svg "></div>3 days left
+                    <div class="clock-img"> <img src=" ./images/icon-clock.svg " alt="clock-icon"></div>3 days left
                 </div>
 
                 <hr class="h-rule ">
                 <div class="creation ">
-                    <div class="creator-img "><img src="./images/image-avatar.png " height="30px "> </div>
+                    <div class="creator-img "><img src="./images/image-avatar.png " height="30px" alt="auth-icon"> </div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creation of
                     <div class="name ">&nbsp; Jules Wyvern</div>
                 </div>
@@ -56,7 +58,7 @@
         </div>
     </div>
 
-    <div class="attribution ">
+    <div class="attribution " role="footer-info">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/iamakhileshmishra ">Akhilesh Kumar Mishra</a>.
     </div>
 </body>
