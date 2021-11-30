@@ -31,7 +31,9 @@
         color: #fff;
     }
     /* Equilibrium #heading and body part */
-    
+    h1{
+        font-size:23px;
+}
     .eq_head {
         font-weight: 600;
         color: #fff
